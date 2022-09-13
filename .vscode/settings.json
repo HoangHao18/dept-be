@@ -1,0 +1,51 @@
+{
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.tabSize": 2
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "files.eol": "\n",
+  "cSpell.words": [
+    "browserslist",
+    "camelcase",
+    "chartjs",
+    "colour",
+    "colours",
+    "eqeqeq",
+    "flowtype",
+    "formik",
+    "headlessui",
+    "heroicons",
+    "linebreak",
+    "NEXON",
+    "plusplus",
+    "selec",
+    "semibold",
+    "tabler",
+    "tailwindcss",
+    "Unstyled",
+    "viewpage",
+    "Xlink"
+  ],
+  "reactSnippets.settings.prettierEnabled": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "eslint.alwaysShowStatus": true,
+  // turn it off for JS and JSX, we will do this via eslint
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  // Runs Prettier, then ESLint
+  "editor.codeActionsOnSave": ["source.formatDocument", "source.fixAll.eslint"]
+}
